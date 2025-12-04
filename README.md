@@ -33,7 +33,7 @@ A concise OpenCV project: build a complete computer-vision pipeline to detect, t
 - Allowed libraries:
   - cv2 (OpenCV)
   - numpy
-- Do not use end-to-end black-box trackers / pre-made commercial tracking pipelines (implement the core logic).
+- Do not use end-to-end black-box trackers or pre-made commercial tracking pipelines (e.g., YOLO or Faster R-CNN for detection, or DeepSORT for multi-object tracking).(implement the core logic).
 
 ---
 
