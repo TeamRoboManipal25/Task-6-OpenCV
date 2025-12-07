@@ -15,15 +15,17 @@ A concise OpenCV project: build a complete computer-vision pipeline to detect, t
 
 ## Features to implement
 
-- 🟠 Basketball Tracking
-  - Draw a bounding box or clear visual marker around the ball in every frame.
-  - Ensure robust tracking through fast motion, partial occlusions, and lighting changes.
+### 🟠 Basketball Tracking
 
-- 👥 Player Detection & Tracking
-  - Detect and draw bounding boxes (or markers) around each player.
-  - Track players persistently across frames (assign unique IDs).
-  - Maintain dynamic counts for each team (separate counts).
-  - Attempt to distinguish teams (jersey color, clustering, or other features).
+- Draw a bounding box or clear visual marker around the ball in every frame.
+- Ensure robust tracking through fast motion, partial occlusions, and lighting changes.
+
+### 👥 Player Detection & Tracking
+
+- Detect and draw bounding boxes (or markers) around each player.
+- Track players persistently across frames (assign unique IDs).
+- Maintain dynamic counts for each team (separate counts).
+- Attempt to distinguish teams (jersey color, clustering, or other features).
 
 ---
 
@@ -31,9 +33,9 @@ A concise OpenCV project: build a complete computer-vision pipeline to detect, t
 
 - Implement tracking logic yourself; use OpenCV primitives as building blocks.
 - Allowed libraries:
-  - cv2 (OpenCV)
-  - numpy
-- Do not use end-to-end black-box trackers or pre-made commercial tracking pipelines (e.g., YOLO or Faster R-CNN for detection, or DeepSORT for multi-object tracking).(implement the core logic).
+  - `cv2` (OpenCV)
+  - `numpy`
+- **Do not** use end-to-end black-box trackers or pre-made commercial tracking pipelines (e.g., YOLO, Faster R-CNN for detection, or DeepSORT for multi-object tracking). Implement the core logic yourself.
 
 ---
 
@@ -48,3 +50,6 @@ A concise OpenCV project: build a complete computer-vision pipeline to detect, t
 - Short README (this file) describing how to run the code and any assumptions.
 
 ---
+
+## 📚 References
+- https://youtu.be/oXlwWbU8l2o?si=fjuMKfss1f8XVmgw
